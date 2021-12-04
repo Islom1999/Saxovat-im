@@ -1,3 +1,6 @@
+body{
+    background-color: #eee;
+}
 
 nav{
     width: 100%;
@@ -113,4 +116,30 @@ header .category .categ-text h3{
     padding-bottom: 20px;
 }
 
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+}
 
+footer .col-12{
+    padding: 10px 0;
+}
+
+footer ul.parent{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul.parent li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
