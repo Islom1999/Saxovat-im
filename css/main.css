@@ -11,6 +11,11 @@ nav {
   box-shadow: 0 1px 2px #ccc;
   background-color: #fff;
 }
+
+.nav a{
+    color: #A8ECE7;
+}
+
 nav .container {
   display: flex;
   justify-content: space-between;
@@ -26,7 +31,7 @@ nav .logo {
 nav .logo span{
     font-size: 20px;
     font-weight: 550;
-    color: #444;
+    color: #22577E;
 }
 nav .logo img{
     height: 50px;
@@ -41,7 +46,7 @@ nav ul {
 }
 nav ul li a {
   text-decoration: none;
-  color: #222;
+  color: #22577E;
   font-size: 18px;
   padding: 5px 10px;
   margin: 5px 0px;
@@ -271,12 +276,19 @@ footer ul.parent li a {
 }
 
 /* about page start */
+section.page-about .container{
+    background-color: #A8ECE7;
+    border-radius: 25px;
+    padding: 40px 0;
+}
 .container.page-about h2{
     margin-top: 80px;
     text-align: center;
 }
 .carousel{
     margin-top: 30px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 .carousel img{
     width: 80%;
@@ -310,7 +322,7 @@ footer ul.parent li a {
 .card-item{
     box-shadow: 0 0 1px #aaa;
     padding: 10px;
-    background-color: #71dfe7;
+    background-color: #FFF;
     border-radius: 10px;
 }
 .about-card img {
@@ -363,9 +375,17 @@ footer ul.parent li a {
 .form {
     padding-top: 80px;
     text-align: center;
+    background: url('..//img/img-8.jpg');
+    background-size: 100% 100%;
+    color: #fff;
+    padding-bottom: 50px;
 }
 .form .btn{
     /* color: #000; */
     background-color: rgb(21, 226, 226);
+}
+footer.page-form{
+    margin-top: 0;
+    background-color: #333;
 }
 /* contact page end */
