@@ -91,6 +91,7 @@ nav ul li a {
   position: relative;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+  margin-bottom: 80px;
 }
 .header-bg-animate .btn{
     /* text-decoration: none; */
